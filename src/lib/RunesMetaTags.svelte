@@ -16,6 +16,5 @@
   {#if keywords}
     <meta name="keywords" content={keywords} />
   {/if}
-
 </svelte:head>
 
