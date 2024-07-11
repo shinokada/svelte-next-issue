@@ -1,5 +1,10 @@
 <script lang="ts">
-  import type { MetaProps } from './types.ts';
+  interface MetaProps {
+    title?: string;
+    robots?: boolean;
+    description?: string;
+    keywords?: string;
+  }
   let { title, description, keywords }: MetaProps = $props();
   console.log(title, description, keywords)
 </script>

@@ -1,4 +1,9 @@
-import type { MetaProps } from '$lib';
+interface MetaProps {
+  title?: string;
+  robots?: boolean;
+  description?: string;
+  keywords?: string;
+}
 import { ANALYTICS_ID } from '$env/static/private';
 export const load = ({ url }) => {
 
